@@ -235,12 +235,6 @@ public class SMTPServer {
         return -1;
     }
 
-    /**
-     * 
-     * @param s client's input (raw)
-     * @return
-     */
-
     private static int determineOperation(String s) {
         String operation = s.toLowerCase();
         int opCode = -1;
@@ -281,13 +275,6 @@ public class SMTPServer {
 
         return opCode;
     }
-
-    /**
-     * 
-     * @param data client's input
-     * @param sender
-     * @param receiver
-     */
 
     private static void writeEmailIntoFile(String data, String sender, String receiver) {
         String currentDirectory = null;

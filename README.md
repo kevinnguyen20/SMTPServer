@@ -27,7 +27,8 @@
 
       - 211 System status, or system help reply
       - 214 Help message 
-      [Information on how to use the receiver or the meaning of a particular non-standard command; this reply is useful only to the human user]
+      [Information on how to use the receiver or the meaning of a particular non-standard command;
+      this reply is useful only to the human user]
 
 ----
 

@@ -96,3 +96,6 @@ A simple SMTP server storing your emails locally.
       QUIT
          S: 221
          E: 500
+
+
+For further reading check out <https://datatracker.ietf.org/doc/html/rfc821/>

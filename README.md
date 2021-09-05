@@ -1,5 +1,17 @@
 # SMTPServer
 
+A simple SMTP server storing your emails locally.
+
+## How to use it
+
+1. Execute  
+```SMTPServer.java```.
+
+2. Select a networking utility of your choice (e.g. netcat or telnet) and run, let's say,  
+```telnet localhost 8000```.
+
+3. Use the implemented SMTP-commands in the list below and have fun!
+
 ## Implemented SMTP-Commands
 
       - HELO <SP> <domain> <CRLF>

@@ -41,7 +41,7 @@ public class SMTPServer {
         if(s.length() - 11 == 0)
             return -1;
 
-        int stop = s.length() - 1;
+        int stop = s.length() - 2;
         int start = s.indexOf(":") + 2;
         String domain = s.substring(start, stop);
         if(domain.length() > 0){
@@ -56,7 +56,7 @@ public class SMTPServer {
         if(s.length() - 13 == 0){
             return -1;
         }
-        int stop = s.length() - 1;
+        int stop = s.length() - 2;
         int start = s.indexOf(":") + 2;
         sender = s.substring(start, stop);
         if(sender.length() > 0){

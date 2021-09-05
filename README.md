@@ -1,6 +1,6 @@
 # SMTPServer
 
-## The following are the SMTP commands:
+## Implemented SMTP-Commands
 
             - HELO <SP> <domain> <CRLF>
 
@@ -14,7 +14,7 @@
 
             - QUIT <CRLF>
 
-## Reply codes by function groups
+## Reply codes by function groups (not completely implemented)
 
             - 500 Syntax error, command unrecognized 
             [This may include errors such as command line too long]

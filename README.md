@@ -1,6 +1,6 @@
 # SMTPServer
 
-A simple SMTP server storing your emails locally.
+A simple SMTP server which stores your mails on your file system.
 
 ## How to use it
 
